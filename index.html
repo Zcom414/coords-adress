@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TP 4 : Liste des cinémas</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <h1>TP 4 : Liste des cinémas</h1>
+    
+    <div id="alert" hidden></div>
+    
+    <button id="geolocation-btn">Me géolocaliser</button>
+    
+    <form id="search-form">
+        <div class="form-group">
+            <label for="address">Adresse</label>
+            <input type="search" name="address" id="address">
+        </div>
+        <div class="form-group">
+            <label for="distance">Distance (en km)</label>
+            <input type="range" name="distance" id="distance">
+        </div>
+        <button>Rechercher les cinémas</button>
+    </form>
+    
+    <ul id="cinema-list"></ul>
+</body>
+</html>

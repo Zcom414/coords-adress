@@ -1,0 +1,14 @@
+.form-group {
+    margin: 0.5em 0;
+}
+
+#address {
+    width: 20em;
+}
+
+#alert {
+    color: white;
+    background-color: firebrick;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
